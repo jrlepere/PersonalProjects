@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C46FABB1D34998500E91261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46FAB11D34998500E91261 /* AppDelegate.swift */; };
+		7C46FABC1D34998500E91261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C46FAB21D34998500E91261 /* Assets.xcassets */; };
+		7C46FABD1D34998500E91261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C46FAB31D34998500E91261 /* LaunchScreen.storyboard */; };
+		7C46FABE1D34998500E91261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C46FAB51D34998500E91261 /* Main.storyboard */; };
+		7C46FABF1D34998500E91261 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C46FAB71D34998500E91261 /* Info.plist */; };
+		7C46FAC01D34998500E91261 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46FAB81D34998500E91261 /* Keys.swift */; };
+		7C46FAC11D34998500E91261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46FAB91D34998500E91261 /* ViewController.swift */; };
+		7C46FAC21D34998500E91261 /* xyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46FABA1D34998500E91261 /* xyPoint.swift */; };
+		7CC196771D18E40E004DE696 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC196761D18E40E004DE696 /* CoreLocation.framework */; };
+		7CC196791D18E799004DE696 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC196781D18E799004DE696 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C46FAB11D34998500E91261 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C46FAB21D34998500E91261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C46FAB41D34998500E91261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C46FAB61D34998500E91261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C46FAB71D34998500E91261 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C46FAB81D34998500E91261 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		7C46FAB91D34998500E91261 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C46FABA1D34998500E91261 /* xyPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xyPoint.swift; sourceTree = "<group>"; };
+		7CC196611D18E2ED004DE696 /* FlipMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC196761D18E40E004DE696 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7CC196781D18E799004DE696 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC1965E1D18E2ED004DE696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC196791D18E799004DE696 /* CoreMotion.framework in Frameworks */,
+				7CC196771D18E40E004DE696 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C46FAB01D34998500E91261 /* Flip Meter */ = {
+			isa = PBXGroup;
+			children = (
+				7C46FAB11D34998500E91261 /* AppDelegate.swift */,
+				7C46FAB21D34998500E91261 /* Assets.xcassets */,
+				7C46FAB31D34998500E91261 /* LaunchScreen.storyboard */,
+				7C46FAB51D34998500E91261 /* Main.storyboard */,
+				7C46FAB71D34998500E91261 /* Info.plist */,
+				7C46FAB81D34998500E91261 /* Keys.swift */,
+				7C46FAB91D34998500E91261 /* ViewController.swift */,
+				7C46FABA1D34998500E91261 /* xyPoint.swift */,
+			);
+			path = "Flip Meter";
+			sourceTree = "<group>";
+		};
+		7CC196581D18E2ED004DE696 = {
+			isa = PBXGroup;
+			children = (
+				7CC196781D18E799004DE696 /* CoreMotion.framework */,
+				7CC196761D18E40E004DE696 /* CoreLocation.framework */,
+				7C46FAB01D34998500E91261 /* Flip Meter */,
+				7CC196621D18E2ED004DE696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC196621D18E2ED004DE696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC196611D18E2ED004DE696 /* FlipMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC196601D18E2ED004DE696 /* FlipMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC196731D18E2EE004DE696 /* Build configuration list for PBXNativeTarget "FlipMeter" */;
+			buildPhases = (
+				7CC1965D1D18E2ED004DE696 /* Sources */,
+				7CC1965E1D18E2ED004DE696 /* Frameworks */,
+				7CC1965F1D18E2ED004DE696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipMeter;
+			productName = "How Far";
+			productReference = 7CC196611D18E2ED004DE696 /* FlipMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC196591D18E2ED004DE696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jake Lepere";
+				TargetAttributes = {
+					7CC196601D18E2ED004DE696 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GHQU45Y4CT;
+					};
+				};
+			};
+			buildConfigurationList = 7CC1965C1D18E2ED004DE696 /* Build configuration list for PBXProject "FlipMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC196581D18E2ED004DE696;
+			productRefGroup = 7CC196621D18E2ED004DE696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC196601D18E2ED004DE696 /* FlipMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC1965F1D18E2ED004DE696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C46FABC1D34998500E91261 /* Assets.xcassets in Resources */,
+				7C46FABE1D34998500E91261 /* Main.storyboard in Resources */,
+				7C46FABD1D34998500E91261 /* LaunchScreen.storyboard in Resources */,
+				7C46FABF1D34998500E91261 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC1965D1D18E2ED004DE696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C46FAC01D34998500E91261 /* Keys.swift in Sources */,
+				7C46FAC21D34998500E91261 /* xyPoint.swift in Sources */,
+				7C46FAC11D34998500E91261 /* ViewController.swift in Sources */,
+				7C46FABB1D34998500E91261 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C46FAB31D34998500E91261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C46FAB41D34998500E91261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7C46FAB51D34998500E91261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C46FAB61D34998500E91261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC196711D18E2EE004DE696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = FlipMeter;
+				PRODUCT_MODULE_NAME = FlipMeter;
+				PRODUCT_NAME = FlipMeter;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC196741D18E2EE004DE696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Flip Meter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlipMeter;
+				PRODUCT_MODULE_NAME = FlipMeter;
+				PRODUCT_NAME = FlipMeter;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC1965C1D18E2ED004DE696 /* Build configuration list for PBXProject "FlipMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC196711D18E2EE004DE696 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CC196731D18E2EE004DE696 /* Build configuration list for PBXNativeTarget "FlipMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC196741D18E2EE004DE696 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC196591D18E2ED004DE696 /* Project object */;
+}
