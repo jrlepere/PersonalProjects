@@ -16,3 +16,6 @@
    - App for making touch choices.
    - Enter list of choices.
    - Randomly select one.
+# - Box Jump
+   - Attempt to convert class project game to an app
+   - Experimenting with SpriteKit and CoreMotion
