@@ -12,3 +12,7 @@
    - Was pushed successfully to AppStore.
    - Calculates distances between two points by flipping your phone.
    - Accesses the gyro and accelerometer.
+# - Can't Decide
+   - App for making touch choices.
+   - Enter list of choices.
+   - Randomly select one.
