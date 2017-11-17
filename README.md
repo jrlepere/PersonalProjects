@@ -1,5 +1,3 @@
-# PersonalProjects
-
 # iPhone Projects
 # - Bold Sports
    - Was pushed successfully to AppStore.
@@ -17,5 +15,10 @@
    - Enter list of choices.
    - Randomly select one.
 # - Box Jump
-   - Attempt to convert class project game to an app
-   - Experimenting with SpriteKit and CoreMotion
+   - Attempt to convert class project game to an app.
+   - Experimenting with SpriteKit and CoreMotion.
+
+# Python Projects
+# - Pool Table Detection
+   - Detect pool table from an image.
+   - Detect ball locations.
