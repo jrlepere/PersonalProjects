@@ -8,7 +8,7 @@
    - Place predictions.
    - Vote of other predictions.
    - View personal data.
-# - Flip Ruler
+# - Flip Meter
    - Was pushed successfully to AppStore.
    - Calculates distances between two points by flipping your phone.
    - Accesses the gyro and accelerometer.
